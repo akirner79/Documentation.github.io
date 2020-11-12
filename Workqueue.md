@@ -20,7 +20,8 @@ The listed response codes are possible for the MBM Workqueue API. For further in
 |STATUS CODE|DECSRIPTION|
 |:-----:|-----|
 |200|OK- The request has succeeded. The information returned witht he repsonse is dependant on the method used in the request.|
-|500| Could just put a link to a repo of all of our errors|
+|500| Internal Server Error. The server has encountered a situation it doesnt know how to handle.|
+|XXX| This is the master list of all HTTPS Repsonse codes we support|
 
 
 ### **Application Response Codes**<br>
@@ -29,4 +30,5 @@ The listed response codes are possible for the MBM Workqueue API. For further in
 |:-----:|-----|
 |123|A new authorization cannot be submitted until authorization ```hscid``` is completed.|
 |124|The following duplicate authorizations have been found.```hscid``` ```hscid``` ```hscid``` ```hscid``` |
+|XXX| This is the master list of all HTTPS Repsonse codes we support|
 
